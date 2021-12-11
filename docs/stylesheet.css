@@ -1,39 +1,24 @@
 body {
 	background-color: white;
 	}
-.nav {
-	display: inline;
-	padding: 1em;
-	list-style: none;
-	}
-header {
-	text-align: center;
-	width: 100%;
-	padding: 12px;
-	margin-bottom: 0.5em;
-	font-size: 1em;
-	font-family: 'Arial';
-	font-color: black;
-	}
-div	{
-	border: 3px solid black;
+.border	{
+	  
 	padding: 1em;
 	margin: 2em 4em 2em;
+	border: 3px solid black;
+	}
+header	{
+	height: 20em;
 	}
 h1 {
 	text-align: center;
-	font-size: 3.5em;
+	font-size: 4em;
 	font-family: 'Arial';
-	color: black;
+	color: white;
 	width: fit-content;
 	margin: auto;
-	padding: 1px;
-	}
-.subt  {
-        text-align: center;
-	width: 100%;
-        padding: 0px;
-	color: black;
+	padding-top: 1em;
+	text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
 	}
 h2 {
 	text-align: left;
@@ -42,22 +27,22 @@ h2 {
 	text-decoration: underline;
 	padding: 0.5em;
 	font-size: 2em;
+	margin-left: 1em;
 	}
 
 h4 {
-	text-align: left;
+	text-align: center;
 	font-family: 'Arial';
-	color: black;
-	padding: 1px;
+	color: white;
+	text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
 	}
 p {
         font-family: 'Arial';
-  	margin-right: 7em;
-	margin-left: 7em;
+  	margin-right: 3em;
+	margin-left: 3em;
 	overflow:auto;
         padding: 0.5em;
 	outline: none;
-	outline-color: 
 	background-color: white;
 	}
 	
@@ -68,13 +53,16 @@ img  {
   	width: fit-content;
 	}
 a {
-        text-align: center;
-	width: 100%;
-	padding: 1em;
-	margin: auto;
-	font-size: 1em;
 	font-family: 'Arial';
 	}
+.anchor {
+	text-align: center;
+	padding: 2em;
+	font-family: 'Arial';
+	margin: auto;
+  	width: 100%;
+	}
+
 
 	
         
